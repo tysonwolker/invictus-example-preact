@@ -1,0 +1,30 @@
+{
+  "name": "invictus-example-preact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^8.2.1",
+    "preact-compat": "^3.16.0",
+    "invictus-core": "file:../invictus-core",
+    "invictus-preact": "file:../invictus-preact"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.3.0",
+    "webpack-bundle-analyzer": "^2.8.3",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
